@@ -32,6 +32,7 @@
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (require 'yasnippet)
-(yas-global-mode 1)
-(setq yas-also-auto-indent-first-line 1)
+(yas-global-mode t)
+(setq yas-also-auto-indent-first-line t)
 (setq yas-snippet-dirs yas-installed-snippets-dir) ;; makes new snippets saveable from minor mode
+(setq yas-wrap-around-region t)
