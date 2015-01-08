@@ -33,3 +33,4 @@
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (require 'yasnippet)
 (yas-global-mode 1)
+(setq yas-also-auto-indent-first-line 1)
