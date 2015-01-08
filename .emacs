@@ -34,3 +34,4 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 (setq yas-also-auto-indent-first-line 1)
+(setq yas-snippet-dirs yas-installed-snippets-dir) ;; makes new snippets saveable from minor mode
