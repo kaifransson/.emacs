@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 (require 'package)
 (package-initialize)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
@@ -33,6 +33,8 @@
 (require 'magit)
 (global-set-key (kbd "C-x g s") 'magit-status)
 (global-set-key (kbd "C-x g p") 'magit-push)
+
+;; auto-generated code from here on
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
