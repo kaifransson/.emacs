@@ -33,6 +33,8 @@
 (require 'magit)
 (global-set-key (kbd "C-x g s") 'magit-status)
 (global-set-key (kbd "C-x g p") 'magit-push)
+(setq magit-auto-revert-mode nil)
+(setq magit-last-seen-setup-instructions "1.4.0")
 
 ;; auto-generated code from here on
 (custom-set-variables
