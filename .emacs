@@ -17,6 +17,7 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 (put 'downcase-region 'disabled nil)
+(setq org-agenda-files (list "~/org/work.org"))
 (require 'yasnippet)
 (yas-global-mode t)
 (setq yas-also-auto-indent-first-line t)
