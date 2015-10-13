@@ -18,7 +18,7 @@
 (setq org-log-done t)
 (put 'downcase-region 'disabled nil)
 (setq org-agenda-files (list "~/org"))
-(setq org-todo-keywords '((sequence "TODO" "FEEDBACK" "|" "DONE" "CANCELED")))
+(setq org-todo-keywords '((sequence "TODO" "FEEDBACK" "|" "DONE" "DELEGATED" "CANCELED")))
 (require 'yasnippet)
 (yas-global-mode t)
 (setq yas-also-auto-indent-first-line t)
